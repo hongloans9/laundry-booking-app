@@ -1,1 +1,1 @@
-# launry-booking-app
+# laundry-booking-app
