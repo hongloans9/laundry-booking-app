@@ -1,7 +1,7 @@
 {
-  "name": "nghiepuit-edu-frontend",
+  "name": "Laundry Booking App",
   "version": "1.0.0",
-  "description": "init project",
+  "description": "thesis project",
   "main": "index.js",
   "scripts": {
     "start": "better-npm-run start:dev",
@@ -18,8 +18,8 @@
   "keywords": [
     "edu"
   ],
-  "author": "nghiepuit",
-  "license": "ISC",
+  "author": "",
+  "license": "MIT",
   "dependencies": {
     "autoprefixer": "^7.2.1",
     "bootstrap": "^3.3.7",
