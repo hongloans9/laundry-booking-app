@@ -1,6 +1,14 @@
 import express from 'express';
+import bookingRoute from './routes/booking';
+import authRoute from './routes/authentication';
 
-const route = express.Router();
+const router = express.Router();
 
+router.get('/status', (req, res) =>
+    res.send('OK')
+);
 
-module.exports = route;
+router.use('/booking', bookingRoute);
+router.use('/auth', authRoute);
+
+module.exports = router;
